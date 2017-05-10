@@ -32,6 +32,7 @@ To test the implementation of Chandy and Lamport’s snapshot protocol is correc
 The vector clock concurrency is checked using a python script. The script performs pair wise vector clock concurrency check. At the end of the execution the result is presented to the user.
 
 Use the following syntax to run the concurrency checker
+
 `python Concurrency.py <number_of_nodes> <path/to/configuration/file.txt>`
 
 ## Format of the configuration file
@@ -54,6 +55,7 @@ The *k* th valid line after the first line is a space delimited list of node IDs
 ‘launcher.sh’ will launch multiple instances of the application as nodes in the machine that you have entered in the configuration file. 
 
 Run startup using the following syntax
+
 `sh startup.sh <path/to/configuration/file.txt>`
 
 ## Terminating the application
@@ -61,6 +63,7 @@ Run startup using the following syntax
 Once the nodes have taken the required number of snapshots as mentioned in the configuration file, each node will start it’s execution. But if the application is stalled due to some failures, it is better to kill the processes. ‘cleanup’  is the script to use while logs in to appropriate machines to kill the processes launched by the ‘launcher’ script. 
 
 Run cleanup using the following syntax
+
 `sh cleanup.sh <path/to/configuration/file.txt>`
 
 ***Note:*** 
