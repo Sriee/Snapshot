@@ -13,7 +13,7 @@ class Launcher(Parser):
 
     def run_command(self):
         # Change file path where AOS_Project.jar file is present
-        filePath = "/home/011/s/sx/sxa156930/CS6378/"
+        filePath = ""
         if self.nodes is None:
             logging.debug("node list is None")
             print "Parsing <id><host><port> failed"
