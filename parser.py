@@ -20,10 +20,10 @@ class Node:
 
 
 class Parser:
-    CONFIG_FILE = "config.txt"
-    PROJ_NAME = "AOS_Project.jar"
+    CONFIG_FILE = "" # Add default config file name
+    PROJ_NAME = "" # Add default project name
     number_of_nodes = 0
-    net_id = "sxa156930"
+    net_id = "" # Add login credentials for the process
     nodes = None
     logger = None
 
