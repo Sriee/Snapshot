@@ -1,0 +1,10 @@
+# six global parameters ( see above)
+3 3 5 100 2000 5
+
+0 dc02.utdallas.edu 11234 # nodeID hostName listenPort
+1 dc03.utdallas.edu 21233
+2 dc04.utdallas.edu 58243
+
+1 2 # space delimited l i s t of neighbors for node 0
+0 
+0	

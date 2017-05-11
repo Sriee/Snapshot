@@ -1,0 +1,59 @@
+3-22-2017 12:06:26 PM: SharedResource [numOfNodes=6, nodeId=2, machines=dc21, ports=58243, neighbhors=[0]]
+3-22-2017 12:06:26 PM: Setup Started
+3-22-2017 12:06:26 PM: I should wait for 0 connections
+3-22-2017 12:06:32 PM: Received Message [sender=0, Type=application, vectorClock=[3, 2, 0, 0, 0, 0]]
+3-22-2017 12:06:32 PM: Client has started.
+3-22-2017 12:06:32 PM: I will send 16 Application Msg.
+3-22-2017 12:06:32 PM: Sending application message to 0 : VectorClock [3, 2, 2, 0, 0, 0]
+3-22-2017 12:06:32 PM: Sending application message to 0 : VectorClock [3, 2, 3, 0, 0, 0]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [3, 2, 4, 0, 0, 0]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [3, 2, 5, 0, 0, 0]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [3, 2, 6, 0, 0, 0]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [3, 2, 7, 0, 0, 0]
+3-22-2017 12:06:33 PM: Received Message [sender=0, Type=application, vectorClock=[27, 7, 6, 5, 4, 3]]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [27, 7, 9, 5, 4, 3]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [27, 7, 10, 5, 4, 3]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [27, 7, 11, 5, 4, 3]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [27, 7, 12, 5, 4, 3]
+3-22-2017 12:06:33 PM: Sending application message to 0 : VectorClock [27, 7, 13, 5, 4, 3]
+3-22-2017 12:06:33 PM: Received Message [sender=0, Type=application, vectorClock=[57, 13, 12, 11, 10, 9]]
+3-22-2017 12:06:34 PM: Sending application message to 0 : VectorClock [57, 13, 15, 11, 10, 9]
+3-22-2017 12:06:34 PM: Sending application message to 0 : VectorClock [57, 13, 16, 11, 10, 9]
+3-22-2017 12:06:34 PM: Sending application message to 0 : VectorClock [57, 13, 17, 11, 10, 9]
+3-22-2017 12:06:34 PM: Sending application message to 0 : VectorClock [57, 13, 18, 11, 10, 9]
+3-22-2017 12:06:34 PM: Sending application message to 0 : VectorClock [57, 13, 19, 11, 10, 9]
+3-22-2017 12:06:34 PM: Received Message [sender=0, Type=application, vectorClock=[87, 19, 18, 17, 16, 15]]
+3-22-2017 12:06:34 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-22-2017 12:06:34 PM: Snapshot : [87, 19, 21, 17, 16, 15]
+3-22-2017 12:06:34 PM: Sending marker message to 0
+3-22-2017 12:06:34 PM: Sending state message to parent 0
+3-22-2017 12:06:34 PM: Re-init (special case) snapshot parameters @2
+3-22-2017 12:06:34 PM: Received Message [sender=0, Type=application, vectorClock=[113, 24, 19, 24, 23, 22]]
+3-22-2017 12:06:34 PM: Client has started.
+3-22-2017 12:06:34 PM: I will send 14 Application Msg.
+3-22-2017 12:06:34 PM: Sending application message to 0 : VectorClock [113, 24, 23, 24, 23, 22]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [113, 24, 24, 24, 23, 22]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [113, 24, 25, 24, 23, 22]
+3-22-2017 12:06:35 PM: Received Message [sender=0, Type=application, vectorClock=[123, 29, 24, 25, 23, 24]]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [123, 29, 27, 25, 23, 24]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [123, 29, 28, 25, 23, 24]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [123, 29, 29, 25, 23, 24]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [123, 29, 30, 25, 23, 24]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [123, 29, 31, 25, 23, 24]
+3-22-2017 12:06:35 PM: Received Message [sender=0, Type=application, vectorClock=[147, 35, 30, 30, 27, 27]]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [147, 35, 33, 30, 27, 27]
+3-22-2017 12:06:35 PM: Sending application message to 0 : VectorClock [147, 35, 34, 30, 27, 27]
+3-22-2017 12:06:36 PM: Sending application message to 0 : VectorClock [147, 35, 35, 30, 27, 27]
+3-22-2017 12:06:36 PM: Sending application message to 0 : VectorClock [147, 35, 36, 30, 27, 27]
+3-22-2017 12:06:36 PM: Sending application message to 0 : VectorClock [147, 35, 37, 30, 27, 27]
+3-22-2017 12:06:36 PM: Sending application message to 0 : VectorClock [147, 35, 38, 30, 27, 27]
+3-22-2017 12:06:36 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-22-2017 12:06:36 PM: Snapshot : [147, 35, 39, 30, 27, 27]
+3-22-2017 12:06:36 PM: Sending marker message to 0
+3-22-2017 12:06:36 PM: Sending state message to parent 0
+3-22-2017 12:06:36 PM: Re-init (special case) snapshot parameters @2
+3-22-2017 12:06:36 PM: Received Message [sender=0, Type=terminate, vectorClock=null]
+3-22-2017 12:06:36 PM: 2 Sending terminate message
+3-22-2017 12:06:36 PM: Sending terminate message to 0
+3-22-2017 12:06:37 PM: Output printed.
+3-22-2017 12:06:37 PM: Listener 0 quiting..

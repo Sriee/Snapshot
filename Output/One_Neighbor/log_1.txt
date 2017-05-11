@@ -1,0 +1,20 @@
+3-20-2017 02:45:36 PM: SharedResource [numOfNodes=3, nodeId=1, machines=dc03, ports=21233, neighbhors=[0]]
+3-20-2017 02:45:36 PM: Setup Started
+3-20-2017 02:45:36 PM: I should wait for 0 connections
+3-20-2017 02:45:38 PM: Received Message [sender=0, Type=application, vectorClock=[1, 0, 0]]
+3-20-2017 02:45:38 PM: Client has started.
+3-20-2017 02:45:38 PM: I will send 3 Application Msg.
+3-20-2017 02:45:38 PM: Sending application message to 0 : VectorClock [1, 2, 0]
+3-20-2017 02:45:39 PM: Sending application message to 0 : VectorClock [1, 3, 0]
+3-20-2017 02:45:39 PM: Sending application message to 0 : VectorClock [1, 4, 0]
+3-20-2017 02:45:39 PM: Received Message [sender=0, Type=application, vectorClock=[6, 3, 2]]
+3-20-2017 02:45:40 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-20-2017 02:45:40 PM: Snapshot : [6, 5, 2]
+3-20-2017 02:45:40 PM: Sending marker message to 0
+3-20-2017 02:45:40 PM: Sending state message to parent 0
+3-20-2017 02:45:40 PM: Re-initializing snapshot parameters @1
+3-20-2017 02:45:40 PM: Received Message [sender=0, Type=terminate, vectorClock=null]
+3-20-2017 02:45:41 PM: 1 Sending terminate message
+3-20-2017 02:45:41 PM: Sending terminate message to 0
+3-20-2017 02:45:41 PM: Output printed.
+3-20-2017 02:45:41 PM: Listener 0 quiting..

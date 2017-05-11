@@ -1,0 +1,131 @@
+3-21-2017 10:13:02 PM: SharedResource [numOfNodes=3, nodeId=0, machines=dc02, ports=11234, neighbhors=[1, 2]]
+3-21-2017 10:13:02 PM: 0 Sending active msg.
+3-21-2017 10:13:02 PM: Setup Started
+3-21-2017 10:13:02 PM: I should wait for 2 connections
+3-21-2017 10:13:03 PM: Connected to 1 @ dc03.utdallas.edu
+3-21-2017 10:13:05 PM: Connected to 2 @ dc04.utdallas.edu
+3-21-2017 10:13:05 PM: Client has started.
+3-21-2017 10:13:05 PM: I will send 9 Application Msg.
+3-21-2017 10:13:05 PM: Sending application message to 1 : VectorClock [1, 0, 0]
+3-21-2017 10:13:05 PM: Received Message [sender=1, Type=application, vectorClock=[1, 2, 0]]
+3-21-2017 10:13:06 PM: Sending application message to 2 : VectorClock [3, 2, 0]
+3-21-2017 10:13:06 PM: Received Message [sender=2, Type=application, vectorClock=[3, 2, 2]]
+3-21-2017 10:13:06 PM: Taking snapshot..[4, 2, 2]
+3-21-2017 10:13:06 PM: Sending marker message to 1
+3-21-2017 10:13:06 PM: Sending marker message to 2
+3-21-2017 10:13:06 PM: Sending application message to 1 : VectorClock [5, 2, 2]
+3-21-2017 10:13:06 PM: Received Message [sender=1, Type=application, vectorClock=[1, 4, 0]]
+3-21-2017 10:13:06 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:06 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:06 PM: 0 received all marker messages.
+3-21-2017 10:13:06 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[3, 3, 5]]
+3-21-2017 10:13:06 PM: Received StateMessage [state=ACTIVE, channelState={0=[Message [sender=0, Type=application, vectorClock=[5, 2, 2]]]}, Sender=1, MessageType=state, VectorClock=[5, 6, 2]]
+3-21-2017 10:13:06 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:06 PM: 0 is true.
+3-21-2017 10:13:07 PM: Sending application message to 2 : VectorClock [7, 4, 2]
+3-21-2017 10:13:07 PM: Received Message [sender=2, Type=application, vectorClock=[3, 3, 6]]
+3-21-2017 10:13:07 PM: Sending application message to 1 : VectorClock [9, 4, 6]
+3-21-2017 10:13:07 PM: Received Message [sender=1, Type=application, vectorClock=[5, 9, 5]]
+3-21-2017 10:13:07 PM: Taking snapshot..[10, 9, 6]
+3-21-2017 10:13:07 PM: Sending marker message to 1
+3-21-2017 10:13:07 PM: Sending marker message to 2
+3-21-2017 10:13:08 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:08 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[7, 8, 10]]
+3-21-2017 10:13:08 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:08 PM: 0 received all marker messages.
+3-21-2017 10:13:08 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=1, MessageType=state, VectorClock=[9, 12, 9]]
+3-21-2017 10:13:08 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:08 PM: 0 is true.
+3-21-2017 10:13:08 PM: Sending application message to 2 : VectorClock [11, 9, 6]
+3-21-2017 10:13:08 PM: Received Message [sender=2, Type=application, vectorClock=[11, 9, 12]]
+3-21-2017 10:13:08 PM: Sending application message to 1 : VectorClock [13, 9, 12]
+3-21-2017 10:13:08 PM: Received Message [sender=1, Type=application, vectorClock=[9, 14, 9]]
+3-21-2017 10:13:09 PM: Taking snapshot..[14, 14, 12]
+3-21-2017 10:13:09 PM: Sending marker message to 1
+3-21-2017 10:13:09 PM: Sending marker message to 2
+3-21-2017 10:13:09 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:09 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:09 PM: 0 received all marker messages.
+3-21-2017 10:13:09 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[11, 13, 15]]
+3-21-2017 10:13:09 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=1, MessageType=state, VectorClock=[13, 17, 14]]
+3-21-2017 10:13:09 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:09 PM: 0 is true.
+3-21-2017 10:13:09 PM: Sending application message to 2 : VectorClock [15, 14, 12]
+3-21-2017 10:13:09 PM: Received Message [sender=2, Type=application, vectorClock=[15, 14, 17]]
+3-21-2017 10:13:09 PM: Sending application message to 1 : VectorClock [17, 14, 17]
+3-21-2017 10:13:09 PM: Received Message [sender=1, Type=application, vectorClock=[17, 20, 17]]
+3-21-2017 10:13:10 PM: Taking snapshot..[18, 20, 17]
+3-21-2017 10:13:10 PM: Sending marker message to 1
+3-21-2017 10:13:10 PM: Sending marker message to 2
+3-21-2017 10:13:10 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:10 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:10 PM: 0 received all marker messages.
+3-21-2017 10:13:10 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=1, MessageType=state, VectorClock=[17, 22, 19]]
+3-21-2017 10:13:10 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[15, 18, 20]]
+3-21-2017 10:13:10 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:10 PM: 0 is true.
+3-21-2017 10:13:10 PM: Received Message [sender=2, Type=application, vectorClock=[15, 18, 21]]
+3-21-2017 10:13:10 PM: Client has started.
+3-21-2017 10:13:10 PM: I will send 5 Application Msg.
+3-21-2017 10:13:10 PM: Sending application message to 1 : VectorClock [20, 20, 21]
+3-21-2017 10:13:10 PM: Received Message [sender=1, Type=application, vectorClock=[20, 25, 21]]
+3-21-2017 10:13:10 PM: Sending application message to 2 : VectorClock [22, 25, 21]
+3-21-2017 10:13:11 PM: Taking snapshot..[22, 25, 21]
+3-21-2017 10:13:11 PM: Sending marker message to 1
+3-21-2017 10:13:11 PM: Sending marker message to 2
+3-21-2017 10:13:11 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:11 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:11 PM: 0 received all marker messages.
+3-21-2017 10:13:11 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[22, 25, 25]]
+3-21-2017 10:13:11 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=1, MessageType=state, VectorClock=[20, 27, 23]]
+3-21-2017 10:13:11 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:11 PM: 0 is true.
+3-21-2017 10:13:11 PM: Sending application message to 1 : VectorClock [23, 25, 21]
+3-21-2017 10:13:11 PM: Received Message [sender=2, Type=application, vectorClock=[22, 28, 27]]
+3-21-2017 10:13:11 PM: Received Message [sender=1, Type=application, vectorClock=[23, 30, 23]]
+3-21-2017 10:13:11 PM: Sending application message to 2 : VectorClock [26, 30, 27]
+3-21-2017 10:13:12 PM: Taking snapshot..[26, 30, 27]
+3-21-2017 10:13:12 PM: Sending marker message to 1
+3-21-2017 10:13:12 PM: Sending marker message to 2
+3-21-2017 10:13:12 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:12 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:12 PM: 0 received all marker messages.
+3-21-2017 10:13:12 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[26, 30, 30]]
+3-21-2017 10:13:12 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=1, MessageType=state, VectorClock=[23, 32, 28]]
+3-21-2017 10:13:12 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:12 PM: 0 is true.
+3-21-2017 10:13:12 PM: Sending application message to 1 : VectorClock [27, 30, 27]
+3-21-2017 10:13:12 PM: Received Message [sender=2, Type=application, vectorClock=[26, 33, 32]]
+3-21-2017 10:13:13 PM: Received Message [sender=1, Type=application, vectorClock=[27, 36, 33]]
+3-21-2017 10:13:13 PM: Client has started.
+3-21-2017 10:13:13 PM: I will send 1 Application Msg.
+3-21-2017 10:13:13 PM: Sending application message to 1 : VectorClock [30, 36, 33]
+3-21-2017 10:13:13 PM: Taking snapshot..[30, 36, 33]
+3-21-2017 10:13:13 PM: Sending marker message to 1
+3-21-2017 10:13:13 PM: Sending marker message to 2
+3-21-2017 10:13:13 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:13 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:13 PM: 0 received all marker messages.
+3-21-2017 10:13:13 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=1, MessageType=state, VectorClock=[30, 38, 33]]
+3-21-2017 10:13:13 PM: Received StateMessage [state=ACTIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[26, 33, 34]]
+3-21-2017 10:13:13 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:13 PM: 0 is true.
+3-21-2017 10:13:13 PM: Received Message [sender=2, Type=application, vectorClock=[26, 33, 35]]
+3-21-2017 10:13:14 PM: Taking snapshot..[31, 36, 35]
+3-21-2017 10:13:14 PM: Sending marker message to 1
+3-21-2017 10:13:14 PM: Sending marker message to 2
+3-21-2017 10:13:14 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:14 PM: Received Message [sender=2, Type=marker, vectorClock=null]
+3-21-2017 10:13:14 PM: 0 received all marker messages.
+3-21-2017 10:13:14 PM: Received StateMessage [state=PASSIVE, channelState={}, Sender=1, MessageType=state, VectorClock=[30, 39, 33]]
+3-21-2017 10:13:14 PM: Received StateMessage [state=PASSIVE, channelState={}, Sender=2, MessageType=state, VectorClock=[26, 33, 36]]
+3-21-2017 10:13:14 PM: @ ProcessStateMessage : [true, true, true]
+3-21-2017 10:13:14 PM: passiveCount == numNodes.
+3-21-2017 10:13:14 PM: channelEmptyCount == numNodes.
+3-21-2017 10:13:14 PM: Node 0 detected termination.
+3-21-2017 10:13:14 PM: Sending terminate message to 1
+3-21-2017 10:13:14 PM: Sending terminate message to 2
+3-21-2017 10:13:14 PM: Output printed
+3-21-2017 10:13:14 PM: Received Message [sender=1, Type=terminate, vectorClock=null]
+3-21-2017 10:13:14 PM: Received Message [sender=2, Type=terminate, vectorClock=null]
+3-21-2017 10:13:14 PM: Listener 2 quiting..

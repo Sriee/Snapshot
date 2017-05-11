@@ -1,0 +1,98 @@
+3-21-2017 10:13:05 PM: SharedResource [numOfNodes=3, nodeId=2, machines=dc04, ports=58243, neighbhors=[0, 1]]
+3-21-2017 10:13:05 PM: Setup Started
+3-21-2017 10:13:05 PM: I should wait for 0 connections
+3-21-2017 10:13:06 PM: Received Message [sender=0, Type=application, vectorClock=[3, 2, 0]]
+3-21-2017 10:13:06 PM: Client has started.
+3-21-2017 10:13:06 PM: I will send 10 Application Msg.
+3-21-2017 10:13:06 PM: Sending application message to 0 : VectorClock [3, 2, 2]
+3-21-2017 10:13:06 PM: Received Message [sender=1, Type=application, vectorClock=[1, 3, 0]]
+3-21-2017 10:13:06 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:06 PM: Snapshot : [3, 3, 4]
+3-21-2017 10:13:06 PM: Sending marker message to 0
+3-21-2017 10:13:06 PM: Sending marker message to 1
+3-21-2017 10:13:06 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:06 PM: Sending application message to 1 : VectorClock [3, 3, 5]
+3-21-2017 10:13:06 PM: Sending state message to parent 0
+3-21-2017 10:13:06 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:07 PM: Received Message [sender=0, Type=application, vectorClock=[7, 4, 2]]
+3-21-2017 10:13:07 PM: Sending application message to 0 : VectorClock [3, 3, 6]
+3-21-2017 10:13:07 PM: Received Message [sender=1, Type=application, vectorClock=[5, 8, 5]]
+3-21-2017 10:13:07 PM: Sending application message to 1 : VectorClock [7, 8, 9]
+3-21-2017 10:13:08 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:08 PM: Snapshot : [7, 8, 10]
+3-21-2017 10:13:08 PM: Sending marker message to 0
+3-21-2017 10:13:08 PM: Sending marker message to 1
+3-21-2017 10:13:08 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:08 PM: Sending state message to parent 0
+3-21-2017 10:13:08 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:08 PM: Received Message [sender=0, Type=application, vectorClock=[11, 9, 6]]
+3-21-2017 10:13:08 PM: Sending application message to 0 : VectorClock [11, 9, 12]
+3-21-2017 10:13:08 PM: Received Message [sender=1, Type=application, vectorClock=[9, 13, 9]]
+3-21-2017 10:13:08 PM: Sending application message to 1 : VectorClock [11, 13, 14]
+3-21-2017 10:13:09 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:09 PM: Snapshot : [11, 13, 15]
+3-21-2017 10:13:09 PM: Sending marker message to 0
+3-21-2017 10:13:09 PM: Sending marker message to 1
+3-21-2017 10:13:09 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:09 PM: Sending state message to parent 0
+3-21-2017 10:13:09 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:09 PM: Received Message [sender=0, Type=application, vectorClock=[15, 14, 12]]
+3-21-2017 10:13:09 PM: Sending application message to 0 : VectorClock [15, 14, 17]
+3-21-2017 10:13:09 PM: Received Message [sender=1, Type=application, vectorClock=[13, 18, 14]]
+3-21-2017 10:13:09 PM: Sending application message to 1 : VectorClock [15, 18, 19]
+3-21-2017 10:13:10 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:10 PM: Snapshot : [15, 18, 20]
+3-21-2017 10:13:10 PM: Sending marker message to 0
+3-21-2017 10:13:10 PM: Sending marker message to 1
+3-21-2017 10:13:10 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:10 PM: Sending state message to parent 0
+3-21-2017 10:13:10 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:10 PM: Received Message [sender=1, Type=application, vectorClock=[17, 23, 19]]
+3-21-2017 10:13:10 PM: Sending application message to 0 : VectorClock [15, 18, 21]
+3-21-2017 10:13:10 PM: Sending application message to 1 : VectorClock [17, 23, 23]
+3-21-2017 10:13:10 PM: Received Message [sender=0, Type=application, vectorClock=[22, 25, 21]]
+3-21-2017 10:13:11 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:11 PM: Snapshot : [22, 25, 25]
+3-21-2017 10:13:11 PM: Sending marker message to 0
+3-21-2017 10:13:11 PM: Sending marker message to 1
+3-21-2017 10:13:11 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:11 PM: Sending state message to parent 0
+3-21-2017 10:13:11 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:11 PM: Received Message [sender=1, Type=application, vectorClock=[20, 28, 23]]
+3-21-2017 10:13:11 PM: Client has started.
+3-21-2017 10:13:11 PM: I will send 5 Application Msg.
+3-21-2017 10:13:11 PM: Sending application message to 0 : VectorClock [22, 28, 27]
+3-21-2017 10:13:11 PM: Sending application message to 1 : VectorClock [22, 28, 28]
+3-21-2017 10:13:12 PM: Received Message [sender=0, Type=application, vectorClock=[26, 30, 27]]
+3-21-2017 10:13:12 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:12 PM: Snapshot : [26, 30, 30]
+3-21-2017 10:13:12 PM: Sending marker message to 0
+3-21-2017 10:13:12 PM: Sending marker message to 1
+3-21-2017 10:13:12 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:12 PM: Sending state message to parent 0
+3-21-2017 10:13:12 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:12 PM: Received Message [sender=1, Type=application, vectorClock=[23, 33, 28]]
+3-21-2017 10:13:12 PM: Sending application message to 0 : VectorClock [26, 33, 32]
+3-21-2017 10:13:13 PM: Sending application message to 1 : VectorClock [26, 33, 33]
+3-21-2017 10:13:13 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:13 PM: Snapshot : [26, 33, 34]
+3-21-2017 10:13:13 PM: Sending marker message to 0
+3-21-2017 10:13:13 PM: Sending marker message to 1
+3-21-2017 10:13:13 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:13 PM: Sending state message to parent 0
+3-21-2017 10:13:13 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:13 PM: Sending application message to 0 : VectorClock [26, 33, 35]
+3-21-2017 10:13:14 PM: Received Message [sender=0, Type=marker, vectorClock=null]
+3-21-2017 10:13:14 PM: Snapshot : [26, 33, 36]
+3-21-2017 10:13:14 PM: Sending marker message to 0
+3-21-2017 10:13:14 PM: Sending marker message to 1
+3-21-2017 10:13:14 PM: Received Message [sender=1, Type=marker, vectorClock=null]
+3-21-2017 10:13:14 PM: Sending state message to parent 0
+3-21-2017 10:13:14 PM: Re-init (after sending state to parent) @2
+3-21-2017 10:13:14 PM: Received Message [sender=0, Type=terminate, vectorClock=null]
+3-21-2017 10:13:14 PM: 2 Sending terminate message
+3-21-2017 10:13:14 PM: Sending terminate message to 0
+3-21-2017 10:13:14 PM: Sending terminate message to 1
+3-21-2017 10:13:14 PM: Output printed.
+3-21-2017 10:13:14 PM: Received Message [sender=1, Type=terminate, vectorClock=null]
+3-21-2017 10:13:14 PM: Listener 1 quiting..

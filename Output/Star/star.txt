@@ -1,0 +1,16 @@
+# six global parameters ( see above)
+6 15 30 100 2000 30
+
+0 dc02.utdallas.edu 11234 # nodeID hostName listenPort
+1 dc20.utdallas.edu 21233
+2 dc21.utdallas.edu 58243
+3 dc22.utdallas.edu 48523
+4 dc23.utdallas.edu 24868
+5 dc24.utdallas.edu 14868
+
+1 2 3 4 5
+0
+0
+0
+0
+0
