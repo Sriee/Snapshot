@@ -52,9 +52,9 @@ The first token is the node ID. The second token is the host-name of the machine
 
 The *k* th valid line after the first line is a space delimited list of node IDs which are the neighbor of node *k*. The parser is robust concerning leading and trailing white space or extra lines at the beginning or end of file, as well as interleaved with valid lines. The *'#’* character will denote a comment. On any valid line, any characters after a *'#'* character should be ignored.
 
-Sample configuration file:
+#### Sample configuration file:
 
-![alt_title](https://cloud.githubusercontent.com/assets/8402606/25926617/d3127012-35b5-11e7-81a7-69cc8be078f1.png)
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25926690/2fd33c32-35b6-11e7-9230-d4fc2515e4a2.png)
 
 ## Launching the application
 
