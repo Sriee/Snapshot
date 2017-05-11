@@ -1,6 +1,8 @@
 # Snapshot
 Implementation of Chandy Lamport Global Snapshot protocol
 
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25926617/d3127012-35b5-11e7-81a7-69cc8be078f1.png)
+
 ## Project Description
 
 ### Part 1
@@ -49,6 +51,10 @@ After the first valid line, the next *n* lines consist of three tokens.
 The first token is the node ID. The second token is the host-name of the machine on which the node runs. The third token is the port on which the node listens for incoming connections. After the first *n + 1* valid lines, the next *n* lines consist of a space delimited list of at most *n − 1* tokens.
 
 The *k* th valid line after the first line is a space delimited list of node IDs which are the neighbor of node *k*. The parser is robust concerning leading and trailing white space or extra lines at the beginning or end of file, as well as interleaved with valid lines. The *'#’* character will denote a comment. On any valid line, any characters after a *'#'* character should be ignored.
+
+Sample configuration file:
+
+![alt_title](https://cloud.githubusercontent.com/assets/8402606/25926617/d3127012-35b5-11e7-81a7-69cc8be078f1.png)
 
 ## Launching the application
 
