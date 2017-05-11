@@ -1,4 +1,4 @@
- 	package com.aos.work;
+ package com.aos.work;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
